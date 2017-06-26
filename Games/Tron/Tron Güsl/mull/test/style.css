@@ -1,0 +1,30 @@
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: black;
+  margin: 0 auto;
+  max-width: 1500px;
+  min-width: 1000px;
+  color: #2eff54;
+}
+#playGround {
+  background-color: rgba(10, 10, 10, 0.7);
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  border: solid 4px;
+  border-color: #2eff54;
+}
+main {
+  height: auto;
+  min-height: 700px;
+  width: calc(100% - 38px);
+  min-width: 1000px;
+  margin: 15px auto;
+  background-color: rgba(100, 100, 100, 0.5);
+  background-position: center center;
+  border: solid 4px;
+  border-color: black;
+  float: left;
+  color: white;
+  font-size: 30px;
+}

@@ -1,0 +1,10 @@
+for (var i = 0; i < 20; i++) {
+  for (var z = 0; z < 20; z++) {
+    if (questions[z] == document.getElementById("headerh3").innerHTML) {
+      answerbuttondisable("answer"+correctAnswer[z]+"btn");
+      break;
+    }
+  }
+  pageNumberCheckBF(1);
+}
+abgabe();

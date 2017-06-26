@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  </head>
+
+  <body onload="pageNumberCheck()">
+    <header>
+      <h1 id="mainHeader">Quiz</h1>
+    </header>
+    <main id="main" style="display: block">
+      <p id="headerh3"></p>
+      <p id="headerh2"></p>
+      <div class="answerField">
+        <button id="answer1btn" class="answerbutton" onclick="answerbuttondisable(this.id)"></button>
+        <button id="answer2btn" class="answerbutton" onclick="answerbuttondisable(this.id)" style="float: right;"></button>
+        <br/><br/>
+        <button id="answer3btn" class="answerbutton" onclick="answerbuttondisable(this.id)"></button>
+        <button id="answer4btn" class="answerbutton" onclick="answerbuttondisable(this.id)" style="float: right;"></button>
+      </div>
+      <div class="navigationButton">
+        <button id="pagebackbtn" class="navbutton" onclick="pageNumberCheckBF(-1)" style="float: center;">Seite Zurück</button>
+        <button id="pagenextbtn" class="navbutton" onclick="pageNumberCheckBF(1)">Nächste Seite</button>
+        <button id="abgabebtn" class="abgabebtn" onclick="abgabe()">Abgabe</button>
+      </div>
+      <canvas id="balken" width="1000" height="15"></canvas>
+    </main>
+    <div id="result" style="display: none">
+      <a href="home.html" class="homeClass">Home</a>
+      <canvas id="resultBalken" width="1000" height="15"></canvas>
+      <p id="score"></p>
+    </div>
+    <footer>
+      <p id="left" onclick="pageAnfang()">Zum Anfang</p>
+      <p id="right" onclick="pageEnde()">Zum Ende</p>
+      <p class="centered">Quiz©</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

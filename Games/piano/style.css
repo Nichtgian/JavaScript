@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:300,400,700);
+
+html {
+  /*background-color: black;*/
+  /*background-image: url("abstract.jpg");*/
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 1000px;
+}
+
+div, header, nav,  main, footer, #parent , #buttons {
+  float: left;
+  color: white;
+  font-size: 30px;
+  min-width: 1000px;
+}
+
+header {
+  /*background-image: url("swag.jpg");*/
+  background-position: center center;
+  background-repeat: repeat-x;
+  height: auto;
+  min-height: 100px;
+  max-height: 150px;
+  width: calc(100% - 68px);
+  margin: 15px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /*background-color: black;*/
+  border: solid 4px transparent;
+  text-align: center;
+}
+
+header h1 a {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 70px;
+  text-decoration: none;
+  animation: party 5s ease infinite;
+}
+
+main {
+  height: auto;
+  min-height: 680px;
+  width: calc(100% - 68px);
+  margin: 15px auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding: 15px;
+  text-align: center;
+  /*background-color: #000;*/
+  /*background-image: url("game-over.jpg");*/
+  background-position: bottom center;
+  border: solid 4px transparent;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+#playGround {
+  background-color: rgba(1, 1, 1, 1);
+  /*background-image: url("bilder/grid.png");*/
+  background-size: 300px auto;
+  background-position: center center;
+  border: 2px solid  rgba(1, 1, 1, 1);
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0 auto;
+  padding-top: 0px;
+  display: block;
+}
+
+#playGround2 {
+  background-color: rgba(1, 1, 1, 0.9);
+  /*background-image: url("bilder/grid.png");*/
+  background-size: 300px auto;
+  background-position: center center;
+  border: 2px solid  rgba(1, 1, 1, 1);
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 auto;
+  display: block;
+}
+
+#buttons {
+  display: block;
+  text-align: center;
+  width: calc(100% - 60px);
+  margin: 15px auto;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#parentbtn {
+  display: block;
+  text-align: center;
+  width: calc(100% - 60px);
+  margin: 15px auto;
+  padding: 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#parentbtn a {
+  color: white;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#parentbtn #popbtn {
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+}
+/*
+#parentbtn a:focus  ~ #popbtn {
+  display: block;
+}
+
+#parentbtn a:focus {
+  display: block;
+  font-size: 40px;
+}
+*/
+#parent {
+  display: block;
+  text-align: center;
+  width: calc(100% - 60px);
+  margin: 15px auto;
+  padding: 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#parent a {
+  color: white;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#parent #popup {
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#parent a:focus  ~ #popup {
+  display: block;
+}
+
+footer {
+  /*background-color: black;*/
+  border-top: solid 1px white;
+  text-align: center;
+  font-size: 12px;
+  height: auto;
+  min-height: 50px;
+  width: calc(100% - 60px);
+  margin: 15px auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 15px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+@keyframes bgcolor {
+  0% {
+      background-color: #2979ff
+  }
+
+  17% {
+      background-color: #40c4ff
+  }
+
+  34% {
+      background-color: #64dd17
+  }
+
+  51% {
+      background-color: #ffea00
+  }
+
+  67% {
+      background-color: #ff3d00
+  }
+
+  84% {
+      background-color: #f50057
+  }
+
+  100% {
+      background-color: #aa00ff
+  }
+}
+
+.animated-background {
+    animation: bgcolor 30s infinite;
+    animation-direction: alternate;
+}
+
+.bg {
+  background: linear-gradient(
+    to bottom right,
+    #2C3E50, #FD746C,
+    #FF8235, #ffff1c,
+    #92FE9D, #00C9FF,
+    #a044ff, #e73827);
+  background-repeat: no-repeat;
+  background-size: 1500% 1500%;
+  animation: gradient 90s ease infinite;
+}
+
+@keyframes gradient {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+@keyframes party {
+  0% {
+   text-shadow:
+    2px 2px #f92c2c,
+    3px 3px #ef2d55;
+  }
+
+  25% {
+   text-shadow:
+    2px 2px #fc3c7e,
+    3px 3px #fc3cc2;
+  }
+
+  50% {
+   text-shadow:
+    2px 2px #e62bff,
+    3px 3px #bf2aff;
+  }
+
+  75% {
+   text-shadow:
+    2px 2px #fc3c7e,
+    3px 3px #fc3cc2;
+  }
+
+  100% {
+   text-shadow:
+    2px 2px #f92c2c,
+    3px 3px #ef2d55;
+  }
+}

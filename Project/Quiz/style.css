@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+html {
+  background-color: white;
+  background-image: url("background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+::-moz-selection { background-color: rgba(157, 174, 231, 0.3) }
+::selection { background-color: rgba(157, 174, 231, 0.3) }
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+
+div, header, main, footer, #result {
+  float: left;
+  min-width: 1000px;
+}
+
+header {
+  height: auto;
+  margin: 0px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+
+header h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 60px;
+}
+
+main {
+  margin-top: 30px;
+  height: auto;
+  min-height: 100px;
+  width: calc(100% - 15px);
+  padding: 15px;
+}
+
+main #headerh3 {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+main #headerh3 a {
+  text-decoration: none;
+  color: white;
+}
+
+main #headerh3 a:hover {
+  text-decoration: none;
+  color: #adbace;
+}
+
+main #headerh2 {
+  margin: 0px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  height: auto;
+  width: calc(100% - 15px);
+  padding: 15px;
+}
+
+footer p {
+  border-top: 1px solid #fff;
+}
+
+footer .left {
+  text-align: left;
+  float: left;
+}
+
+footer #left {
+  float: left;
+  text-align: left;
+}
+
+footer #left:hover {
+  color: #adbace;
+}
+
+footer .right {
+  float: right;
+  text-align: right;
+}
+
+footer #right {
+  float: right;
+  text-align: right;
+}
+
+footer #right:hover {
+  color: #adbace;
+}
+
+footer .centered {
+  text-align: center;
+}
+
+.answerField {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.answerbutton {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 30px 0px;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.answerbutton:hover {
+    background-color: white;
+    color: #008CBA;
+}
+
+.answerbutton:disabled {
+  background-color: #00baf7;
+  color: white;
+}
+
+.navigationButton {
+  display: block;
+  margin-top: 25px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.navbutton {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.navbutton:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.navbutton:disabled {
+  background-color: #2b702e;
+  color: white;
+}
+
+.abgabebtn {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button:focus { outline: none; }
+
+.abgabebtn:hover {
+    background-color: white;
+    color: #f44336;
+}
+
+.abgabebtn:disabled {
+  background-color: #751912;
+  color: white;
+}
+
+#balken {
+  border: 2px solid #008CBA;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#result {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  width: calc(100% - 15px);
+  padding: 15px;
+}
+
+#resultBalken {
+  border: 2px solid #008CBA;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ul {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.resultCorrect {
+  color: #4CAF50;
+}
+
+.resultWrong {
+  color: #f44336;
+}
+
+.resultAnswer {
+
+}
+
+.homeClass {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+}
+
+.homeClass:hover {
+  color: #adbace;
+}

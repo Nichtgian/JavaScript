@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+::-moz-selection { background-color: rgba(157, 174, 231, 0.3) }
+::selection { background-color: rgba(157, 174, 231, 0.3) }
+button:focus { outline: none; }
+
+:root {
+  --document-bg-color: #FCE4EC;
+  --header-bg-color: #E91E63;
+  --header-addition-bg-color: #D81B60;
+  --main-bg-color: #F06292;
+  --footer-bg-color: #880E4F;
+  --invincible-color: rgba(0, 0, 0, 0.0);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: var(--document-bg-color);
+  height: 100%;
+}
+
+* {
+  color: var(--document-bg-color);
+  font-family: 'Baloo', cursive;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background-color: var(--header-bg-color);
+  height: 100px;
+  position: fixed;
+}
+
+header nav {
+  height: 70%;
+  width: 980px;
+  margin: 0 auto;
+}
+
+header nav button {
+  background-color: var(--invincible-color);
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+header nav button:hover {
+  background-color: var(--document-bg-color);
+}
+
+header nav button:hover i {
+  color: var(--header-addition-bg-color);
+}
+
+header nav button i {
+  color: var(--document-bg-color);
+  width: 100%;
+  transition: all 0.3s linear;
+}
+
+header section {
+  background-color: var(--header-addition-bg-color);
+  height: 30%;
+}
+
+section {
+  height: 100px;
+}
+
+aside {
+  background-color: var(--document-bg-color);
+  display: none;
+}
+
+main {
+  background-color: var(--main-bg-color);
+  height: 150%;
+  width: 980px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+}

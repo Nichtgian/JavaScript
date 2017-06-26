@@ -1,0 +1,25 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-image: url('background.jpg');
+}
+
+canvas {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  padding: 0;
+  display: block;
+  border-radius: 25px;
+  border: 10px solid rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.2);
+}

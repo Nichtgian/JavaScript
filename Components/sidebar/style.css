@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+::-moz-selection { background-color: rgba(157, 174, 231, 0.3) }
+::selection { background-color: rgba(157, 174, 231, 0.3) }
+button:focus { outline: none; }
+
+html {
+  background-color: #ECEFF1;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div, header, aside, main, footer {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  float: left;
+  padding: 15px;
+  margin: 0px;
+}
+
+#wrapper {
+  max-width: 1900px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0px;
+  margin-left: 15%;
+}
+
+#headerBar {
+  background-color: #263238;
+  width: calc(100% - 30px);
+  position: fixed;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#headerBar span {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+#headerBar span i{
+  vertical-align: middle;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+#headerBar span:hover {
+background-color: rgba(0,0,0,0.2);
+border-radius: 50%;
+}
+
+#menuIconHeaderBar {
+  margin-left: 15%;
+  float: left;
+}
+
+#homeIconHeaderBar {
+  float: left;
+}
+
+#menuMore_VertHeaderBar {
+  margin-right: 15%;
+  float: right;
+}
+
+#appBar {
+  background-color: #37474F;
+  width: calc(100% - 30px);
+  margin-left: 0;
+  margin-top: 60px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#sideAppBar {
+  position: fixed;
+  padding: 0px;
+  margin-left: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 2px 15px 10px rgba(0,0,0,0.1);
+  animation: sideAppBarSlideIn 0.2s ease-out;
+}
+
+@keyframes sideAppBarSlideIn {
+    from { margin-left: -300px; }
+    to { margin-left: 0px; }
+}
+
+.sideAppBarContent {
+  margin: 0px;
+  padding: 15px;
+  color: #000;
+}
+
+#sideAppBarHeader {
+  width: calc(100% - 30px);
+  background-color: #263238;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-align: right;
+}
+
+#sideAppBarHeader span {
+  text-decoration: none;
+  color: #fff
+}
+
+#sideAppBarHeader span i {
+  cursor: pointer;
+}
+
+#sideAppBarHeader span:hover {
+  color: #FF1744
+}
+
+#sideAppBarMainContent {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+#sideAppBarMainContent ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#sideAppBarMainContent ul li {
+  height: auto;
+  text-align: right;
+  margin-right: 25%;
+  color: black;
+  text-decoration: none;
+}
+
+#sideAppBarMainContent .navigationLink i {
+  color: black;
+  margin-left: 5%;
+}
+
+#sideAppBarNavigation {
+  padding: 0px;
+  width: 100%;
+  height: 75%;
+}
+
+#sideAppBarIcons {
+  padding: 0px;
+  height: 15%;
+  width: 100%;
+}
+
+#sideAppBarFooter {
+  width: 100%;
+  height: 10%;
+  background-color: #263238;
+  padding: 0px;
+}
+
+#sideAppBarCover {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 0px;
+  background-color: rgba(0,0,0,0.5);
+  animation: sideAppBarCoverAnimation 0.2s ease-out;
+}
+
+@keyframes sideAppBarCoverAnimation {
+    from { background-color: rgba(0,0,0,0.0); }
+    to { background-color: rgba(0,0,0,0.5); }
+}
+
+#sideBar {
+  width: calc(20% - 35px);
+  margin-top: 10px;
+  margin-right: 5px;
+  min-height: 200px;
+}
+
+#mainContent {
+  margin-top: 10px;
+  min-height: 200px;
+  margin-left: 5px;
+  width: calc(80% - 35px);
+}
+
+#mainContent2 {
+  min-height: 1000px;
+}
+
+#mainContentRate {
+  margin-bottom: 10px;
+}
+
+#mainContentRate #starNav {
+  padding: 0;
+}
+
+#mainContentRate ul {
+  text-decoration: none;
+  list-style-type: none;
+  white-space: nowrap;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#mainContentRate ul li {
+  white-space: nowrap;
+}
+
+.content {
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #546E7A;
+  border: 0px solid rgba(0,0,0, 0.0);
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: calc(100% - 30px);
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  font-size: 15px;
+  text-align: center;
+  height: auto;
+  width: calc(100% - 30px);
+  background-color: #263238;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer .left {
+  text-align: left;
+  float: left;
+}
+
+footer .right {
+  float: right;
+  text-align: right;
+}
+
+footer .centered {
+  text-align: center;
+}

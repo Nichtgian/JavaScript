@@ -1,0 +1,94 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*Normal Clock*/
+#clock-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: solid 15px #000;
+  position: relative;
+}
+#clock-container:after {
+  position: absolute;
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  content: "";
+  left: calc(50% - 7.5px);
+  top: calc(50% - 7.5px);
+}
+#clock-container .clock-pointer {
+  width: 15px;
+  left: calc(50% - 7.5px);
+  background-color: black;
+  transform-origin: bottom;
+}
+#clock-hour-pointer {
+  height: 35%;
+  position: inherit;
+  transform: rotate(0deg);
+  margin-top: 15%;
+  position: absolute;
+}
+#clock-minute-pointer {
+  height: 45%;
+  position: inherit;
+  transform: rotate(0deg);
+  margin-top: 5%;
+  position: absolute;
+}
+
+/*Mini Clock*/
+#clock-container-mini {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: solid 5px #000;
+  position: relative;
+}
+#clock-container-mini:after {
+  position: absolute;
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  content: "";
+  left: calc(50% - 2.5px);
+  top: calc(50% - 2.5px);
+}
+#clock-container-mini .clock-pointer {
+  width: 5px;
+  left: calc(50% - 2.5px);
+  background-color: black;
+  transform-origin: bottom;
+}
+#clock-hour-pointer-mini {
+  height: 35%;
+  position: inherit;
+  transform: rotate(0deg);
+  margin-top: 15%;
+  position: absolute;
+}
+#clock-minute-pointer-mini {
+  height: 45%;
+  position: inherit;
+  transform: rotate(0deg);
+  margin-top: 5%;
+  position: absolute;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+::-moz-selection { background-color: rgba(157, 174, 231, 0.3) }
+::selection { background-color: rgba(157, 174, 231, 0.3) }
+button:focus { outline: none; }
+
+:root {
+  --document-bg-color: #F3E5F5;
+  --header-title-bg-color: #9C27B0;
+  --header-addition-bg-color: #8E24AA;
+  --main-bg-color: #AB47BC;
+  --footer-bg-color: #4A148C;
+  --invincible-color: rgba(0, 0, 0, 0.0);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--document-bg-color);
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header, main, footer {
+  color: var(--document-bg-color);
+  font-family: 'Baloo', cursive;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background-color: var(--header-title-bg-color);
+}
+
+header .header-title {
+  font-size: 3.5em;
+}
+
+header .header-addition {
+  font-size: 2.5em;
+}
+
+main {
+  font-size: 2em;
+}

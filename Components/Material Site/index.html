@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+
+  </head>
+  <body>
+    <header class="headerBar">
+      <span class="menuIconHeaderBar" onclick="showSideBar()"><i class="material-icons">menu</i></span>
+      <span class="homeIconHeaderBar" onclick=""><i class="material-icons">home</i></span>
+      <span class="menuMore_VertHeaderBar" onclick=""><i class="material-icons">more_vert</i></span>
+
+      <!--<span onclick="nextDOMColor()"><i class="material-icons">palette</i></span> -->
+    </header>
+    <header class="appBar">
+    </header>
+
+    <div class="sideAppBarCover" style="display: none">
+    </div>
+
+    <aside class="sideAppBar" style="display: none">
+      <div class="sideAppBarHeader">
+        <span onclick="showSideBar()"><i class="material-icons">clear</i></span>
+      </div>
+
+      <div class="sideAppBarMainContent">
+        <nav class="sideAppBarNavigation">
+          <ul>
+            <li><a class="navigationLink" href="#" onclick="nextDOMColor()">Home<i class="material-icons">home</i> </a></li>
+            <li><a class="navigationLink" href="#" onclick="nextDOMColor()">About<i class="material-icons">info</i></a></li>
+          </ul>
+        </nav>
+        <div class="sideAppBarIcons">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="sideAppBarFooter">
+        </div>
+      </div>
+    </aside>
+
+    <div id="wrapper">
+      <div class="sideBar">
+      </div>
+      <div class="mainContent">
+      </div>
+      <div class="mainContent2">
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <p class="left">Left</p>
+        <p class="right">Right</p>
+        <p class="centered">Center</p>
+      </div>
+    </footer>
+
+    <script src="scriptDesign.js"></script>
+  </body>
+</html>
