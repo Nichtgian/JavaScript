@@ -56,7 +56,7 @@ function getDistance(angel) {
   do {
     x = p.x + canvasMini.width / map.mapSize / 4 + distance * Math.cos(toRadians(angel - 90));
     y = p.y + canvasMini.width / map.mapSize / 4 + distance * Math.sin(toRadians(angel - 90));
-    distance++;
+    distance += 0.1;
   } while (!inWall(x, y));
   return Math.sqrt(Math.pow(p.x + canvasMini.width / map.mapSize / 4 - x, 2) + Math.pow(p.y + canvasMini.width / map.mapSize / 4 - y, 2));
 }
