@@ -13,20 +13,20 @@ Much and many love from your favourite Programmer - Nichtgian :)
 ### The Games
 
 - [Flappy Bird](https://nichtgian.github.io/Outdated/Games/Fleppy%20Bird/)
-- [Crash Car] (https://nichtgian.github.io/Javascript-Projects/Games/2dCar/)
-- [Tron] (https://nichtgian.github.io/Javascript-Projects/Games/Tron/Tron%20Güsl/Tron%20-%20Kopie/file/local.html)
-- [Klavier Tiles] (https://nichtgian.github.io/Javascript-Projects/Games/piano/)
-- [Raycasting] (https://nichtgian.github.io/Javascript-Projects/Games/Raycasting/)
+- [Crash Car](https://nichtgian.github.io/Outdated/Games/2dCar/)
+- [Tron](https://nichtgian.github.io/Outdated/Games/Tron/Tron%20Güsl/Tron%20-%20Kopie/file/local.html)
+- [Klavier Tiles](https://nichtgian.github.io/Outdated/Games/piano/)
+- [Raycasting](https://nichtgian.github.io/Outdated/Games/Raycasting/)
 
 > Play them, rage quit them
 
 ### The Not Games
 
-- [Quiz] (https://nichtgian.github.io/Javascript-Projects/Project/Quiz/home.html)
-- [Clock] (https://nichtgian.github.io/Javascript-Projects/Components/clock/)
-- [Sidebar] (https://nichtgian.github.io/Javascript-Projects/Components/sidebar/home.html)
-- [Sidebar] (https://nichtgian.github.io/Javascript-Projects/Components/Material%20Components/Sidebar%20-%20Slide%20in%20from%20Left/)
-- [Millionen Idee] (https://nichtgian.github.io/Javascript-Projects/Components/Millionen%20Idee/)
+- [Quiz](https://nichtgian.github.io/Outdated/Project/Quiz/home.html)
+- [Clock](https://nichtgian.github.io/Outdated/Components/clock/)
+- [Sidebar](https://nichtgian.github.io/Outdated/Components/sidebar/home.html)
+- [Sidebar420](https://nichtgian.github.io/Outdated/Components/Material%20Components/Sidebar%20-%20Slide%20in%20from%20Left/)
+- [Millionen Idee](https://nichtgian.github.io/Outdated/Components/Millionen%20Idee/)
 
 > Steal my Ideas bro, they are here to be stolen
 
@@ -60,6 +60,6 @@ Much and many love from your favourite Programmer - Nichtgian :)
 
 ## The Finish is here
 
-*Credits and Special Thanks  go to all of you helping me improving my skills day by day, I love you*
+*Credits and Special Thanks  go to all of you helping me improving my skills day by day, I love you, mami*
 
-*Licensed by NMFI - NichtgianMediaFoundationIncorporation, the Future is ours.*
+*Licensed by NMFI - Nichtgian Media Foundation Inc. - better than google*
