@@ -1,4 +1,4 @@
-# I am a Readme - Read Me
+﻿# I am a Readme - Read Me
 
 ## The Swag is here
 
@@ -12,7 +12,7 @@ Much and many love from your favourite Programmer - Nichtgian :)
 
 ### The Games
 
-- [Flappy Bird] (https://nichtgian.github.io/Javascript-Projects/Games/Fleppy%20Bird/)
+- [Flappy Bird](https://nichtgian.github.io/Outdated/Games/Fleppy%20Bird/)
 - [Crash Car] (https://nichtgian.github.io/Javascript-Projects/Games/2dCar/)
 - [Tron] (https://nichtgian.github.io/Javascript-Projects/Games/Tron/Tron%20Güsl/Tron%20-%20Kopie/file/local.html)
 - [Klavier Tiles] (https://nichtgian.github.io/Javascript-Projects/Games/piano/)
