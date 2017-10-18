@@ -22,7 +22,6 @@ Much and many love from your favourite Programmer - Nichtgian :)
 
 ### The Not Games
 
-- [Quiz](https://nichtgian.github.io/Outdated/Project/Quiz/home.html)
 - [Clock](https://nichtgian.github.io/Outdated/Components/clock/)
 - [Sidebar](https://nichtgian.github.io/Outdated/Components/sidebar/home.html)
 - [Sidebar420](https://nichtgian.github.io/Outdated/Components/Material%20Components/Sidebar%20-%20Slide%20in%20from%20Left/)
