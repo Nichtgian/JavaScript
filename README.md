@@ -47,8 +47,6 @@ Much and many love from your favourite Programmer - Nichtgian :)
 
 ## The Feedback is here
 
-@donatowolfisberg WHAY AR YU MORE SKILD THEN MI?? :rage:
-
 @PutinWladimir :ru: DAVAI RUSH B :ru:
 
 @mami Komm nicht zu spät nach Hause Schatz :)
